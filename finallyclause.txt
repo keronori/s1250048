@@ -1,0 +1,10 @@
+tryの中ではcountが１なのでthrowされずにSystem.out.printlnが実行される。
+finallyは必ずtry-catch処理において最後に通るのでSystem.out.printlnが実行される。
+
+while処理の2回目でtry処理のif文に条件一致し、例外処理が実行される。
+catch処理のSystem.out.printlnが処理される。
+finally処理が実行される。
+
+while処理の3回目でbreakされる。
+
+main関数の中の最後の処理のSystem.out.printlnが実行される。
